@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/_reset.scss","../sass/layaout/_head.scss","../sass/abstracts/_variables.scss","../sass/main.scss"],"names":[],"mappings":"AAAA;EACI;EACA;EACA;;;ACHJ;EACI;EACA;EACA;EACA;EACA;EACA;EACA;;AACA;EACE,OCPY;;ADSd;EACI,OCVU;;;ACIlB;EACI;EACA;EACA;;;AAGJ;EACI;EACA","file":"style.css"}

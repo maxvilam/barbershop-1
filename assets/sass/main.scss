@@ -1,0 +1,16 @@
+@import "base/reset";
+@import "abstracts/variables";
+@import "layaout/head";
+@import "components/navbar";
+
+
+.blogera__redonda {
+    width:300px;
+    height:300px;
+    border-radius:150px;
+}
+
+.pagination-page{
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+}

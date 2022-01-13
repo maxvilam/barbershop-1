@@ -1,0 +1,34 @@
+body * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head-barbershop {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-image: url("/assets/img/post-image.jpg");
+  background-size: cover;
+  width: auto;
+  height: 800px;
+}
+.head-barbershop__icons {
+  color: #fff;
+}
+.head-barbershop__text {
+  color: #fff;
+}
+
+.blogera__redonda {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.pagination-page {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+/*# sourceMappingURL=style.css.map */
