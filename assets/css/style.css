@@ -5,21 +5,70 @@ body * {
 }
 
 .head-barbershop {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  background-image: url("/assets/img/post-image.jpg");
-  background-size: cover;
-  width: auto;
-  height: 800px;
+  position: relative;
+  text-align: center;
 }
 .head-barbershop__icons {
+  position: absolute;
+  top: 697px;
+  left: 50%;
   color: #fff;
+  transform: translate(-50%, -50%);
 }
 .head-barbershop__text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   color: #fff;
+  font-family: playfair;
+  transform: translate(-50%, -50%);
+  font-family: "Playfair Display", sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 70px;
+  width: 315px;
+  height: 160px;
+}
+@media (min-width: 768px) {
+  .head-barbershop__text {
+    width: 634px;
+    height: 328px;
+  }
 }
 
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.pagination-page {
+  background: darkgray;
+  color: black;
+}
+
+.parrafo {
+  padding: 0 104px 0 104px;
+  line-height: 2;
+}
+.parrafo__link {
+  text-decoration: none;
+  color: #D76C69;
+}
+.parrafo__text {
+  font-family: "roboto", sans-serif;
+  font-style: light;
+  font-weight: 300;
+  font-size: 16px;
+  color: #222323;
+  position: relative;
+  text-align: justify;
+  padding: 0 104px 0 104px;
+}
 .blogera__redonda {
   width: 300px;
   height: 300px;

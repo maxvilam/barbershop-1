@@ -1,0 +1,23 @@
+.parrafo {
+  padding: 0 104px 0 104px;
+  line-height: 2;
+  &__button {
+  }
+  &__link {
+    text-decoration: none;
+    color: $font-color-ruddy;
+  }
+  &__text {
+    font-family: "roboto", sans-serif;
+    font-style: light;
+    font-weight: 300;
+    font-size: 16px;
+    color: $font-color-raisin;
+    position: relative;
+    text-align: justify;
+    padding: 0 104px 0 104px;
+  }
+  &__title {
+      
+  }
+}
