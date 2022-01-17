@@ -53,39 +53,6 @@ body * {
   }
 }
 
-.menu-start-object__button {
-  color: #fff;
-  font-size: 34px;
-}
-
-.menu-start-object__brand {
-  width: 81px;
-  margin-left: 30px;
-}
-
-.menu-start-object__text {
-  color: #fff;
-}
-
-.nav-link:hover {
-  color: #de8684;
-}
-
-.page-item:last-child .page-link {
-  border-top-right-radius: 1.25rem;
-  border-bottom-right-radius: 1.25rem;
-}
-
-.page-item:first-child .page-link {
-  border-top-left-radius: 1.25rem;
-  border-bottom-left-radius: 1.25rem;
-}
-
-.pagination-page {
-  background: darkgray;
-  color: black;
-}
-
 .parrafo {
   padding: 0 50px 0 50px;
   line-height: 2;
@@ -139,12 +106,82 @@ body * {
   font-family: "Playfair Display", sans-serif;
 }
 
+.footer-barbershop {
+  height: 206px;
+  background: #121619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .footer-barbershop {
+    height: 199px;
+  }
+}
+.footer-barbershop__img {
+  width: 81px;
+}
+@media (min-width: 768px) {
+  .footer-barbershop__img {
+    width: 122px;
+  }
+}
+
+.menu-start-object__button {
+  color: #fff;
+  font-size: 34px;
+}
+
+.menu-start-object__brand {
+  width: 81px;
+  margin-left: 30px;
+}
+
+.menu-start-object__text {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #de8684;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.page-item:first-child .page-link {
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.pagination-page {
+  background: #1216191A;
+  padding: 58px 0 58px 0;
+  -webkit-border-radius: 0rem;
+  -moz-border-radius: 0rem;
+  -ms-border-radius: 0rem;
+  -o-border-radius: 0rem;
+}
+.pagination-page__text {
+  color: #121619;
+  font-family: "roboto", sans-serif;
+}
+
+.page-link:hover {
+  background-color: #121619;
+  color: #fff;
+}
+
 .blogger {
   border: 0.3px solid #d1d1d1;
+  padding-top: 63px;
+  padding-bottom: 61px;
   text-align: center;
 }
 @media (min-width: 768px) {
   .blogger {
+    border: 0.3px solid #d1d1d1;
     padding-top: 58px;
     padding-bottom: 92px;
     text-align: left;
@@ -178,11 +215,8 @@ body * {
   font-weight: 300;
   font-size: 14px;
   color: #707070;
-}
-
-.pagination-page {
-  border-top-left-radius: 1.25rem;
-  border-bottom-left-radius: 1.25rem;
+  line-height: 2;
+  padding-right: 108px;
 }
 
 /*# sourceMappingURL=style.css.map */

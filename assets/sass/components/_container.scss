@@ -1,7 +1,10 @@
 .blogger {
     border:0.3px solid $font-color-light-gray;
+    padding-top: 63px;
+    padding-bottom: 61px;
     text-align: center;
     @media (min-width: 768px) {       
+        border:0.3px solid $font-color-light-gray;
         padding-top: 58px;
         padding-bottom: 92px;
         text-align: left;
@@ -42,5 +45,8 @@
     font-weight: 300;
     font-size: 14px;
     color: $font-color-title-parrafo;
+    line-height: 2;
+    padding-right: 108px;
+
   
 }

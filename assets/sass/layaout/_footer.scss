@@ -1,0 +1,17 @@
+.footer-barbershop {
+  height: 206px;
+  @media (min-width: 768px) {
+    height: 199px;
+   }
+   background: $font-color-eerie;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__img {
+    width: 81px;
+    @media (min-width: 768px) {
+      width: 122px;
+      
+    }
+  }
+}

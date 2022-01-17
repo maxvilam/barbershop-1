@@ -1,13 +1,28 @@
-.page-item:last-child .page-link{
-    border-top-right-radius: 1.25rem;
-    border-bottom-right-radius: 1.25rem;
+.page-item:last-child .page-link {
+  border-top-right-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
 }
 
 .page-item:first-child .page-link {
-    border-top-left-radius: 1.25rem;
-    border-bottom-left-radius: 1.25rem;
+  border-top-left-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
 }
-.pagination-page{
-    background:darkgray;
-    color: black;
+.pagination-page {
+    background: $font-color-pagination;
+    padding: 58px 0 58px 0;
+    -webkit-border-radius: 0rem;
+    -moz-border-radius: 0rem;
+    -ms-border-radius: 0rem;
+    -o-border-radius: 0rem;
+  &__text {
+      color: $font-color-eerie;
+      font-family: $ff-roboto, sans-serif;
+    }
+}
+
+.page-link:hover {
+    background-color:$font-color-eerie;
+    color: $font-color-white;
+    
+
 }
