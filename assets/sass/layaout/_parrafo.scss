@@ -1,23 +1,48 @@
 .parrafo {
-  padding: 0 104px 0 104px;
+  padding: 0 50px 0 50px;
+  @media (min-width: 768px) {
+    padding: 0 100px 0 100px;
+  }
   line-height: 2;
+  font-style: light;
+  font-weight: 300;
+  font-size: 16px;
+  color: $font-color-raisin;
+  text-align: left;
+  font-family: $ff-roboto, sans-serif;
   &__button {
+    margin-top: 25px;
+    margin-bottom: 70px;
+    display: flex;
+    font-size: 14px;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    margin-right: 6px;
+    margin-left: 6px;
+    border-bottom-right-radius: 1.25rem;
+    @media (min-width: 768px) {
+        justify-content: start;
+    }
   }
   &__link {
     text-decoration: none;
     color: $font-color-ruddy;
   }
-  &__text {
-    font-family: "roboto", sans-serif;
-    font-style: light;
-    font-weight: 300;
-    font-size: 16px;
-    color: $font-color-raisin;
-    position: relative;
-    text-align: justify;
-    padding: 0 104px 0 104px;
+  &__text1 {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+  &__text2 {
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
   &__title {
-      
+    padding: 47px 0 47px 0;
+    font-size: $fz-madium;
+    color: $font-color-title-parrafo;
+    font-family: $ff-playfair, sans-serif;
   }
 }

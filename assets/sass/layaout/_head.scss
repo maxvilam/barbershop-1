@@ -11,12 +11,14 @@
     }
   }
   &__img {
-    top: 640px;
-    width: auto;
+    
+    width: 414px;
     height: 640px;
+    object-fit: none;
     @media (min-width: 768px) {
       width: 100%;
       height: auto;
+      object-fit: fill;
     }
   }
   &__text {
@@ -24,9 +26,8 @@
     top: 235px;
     left: 50%;
     color: $font-color-white;
-    font-family: playfair;
     transform: translate(-50%, -50%);
-    font-family: "Playfair Display", sans-serif;
+    font-family: $ff-playfair, sans-serif;
     font-style: italic;
     font-weight: 900;
     font-size: 40px;
