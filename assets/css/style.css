@@ -10,14 +10,29 @@ body * {
 }
 .head-barbershop__icons {
   position: absolute;
-  top: 697px;
-  left: 50%;
   color: #fff;
-  transform: translate(-50%, -50%);
+  top: 570px;
+  font-size: 40px;
+}
+@media (min-width: 768px) {
+  .head-barbershop__icons {
+    top: 80%;
+  }
+}
+.head-barbershop__img {
+  top: 640px;
+  width: auto;
+  height: 640px;
+}
+@media (min-width: 768px) {
+  .head-barbershop__img {
+    width: 100%;
+    height: auto;
+  }
 }
 .head-barbershop__text {
   position: absolute;
-  top: 50%;
+  top: 235px;
   left: 50%;
   color: #fff;
   font-family: playfair;
@@ -25,7 +40,7 @@ body * {
   font-family: "Playfair Display", sans-serif;
   font-style: italic;
   font-weight: 900;
-  font-size: 70px;
+  font-size: 40px;
   width: 315px;
   height: 160px;
 }
@@ -33,7 +48,27 @@ body * {
   .head-barbershop__text {
     width: 634px;
     height: 328px;
+    font-size: 70px;
+    top: 55%;
   }
+}
+
+.menu-start-object__button {
+  color: #fff;
+  font-size: 34px;
+}
+
+.menu-start-object__brand {
+  width: 81px;
+  margin-left: 30px;
+}
+
+.menu-start-object__text {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #DE8684;
 }
 
 .page-item:last-child .page-link {
