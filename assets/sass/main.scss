@@ -4,12 +4,9 @@
 @import "components/navbar";
 @import "components/pagination";
 @import "layaout/parrafo";
+@import "components/container";
 
-.blogera__redonda {
-    width:300px;
-    height:300px;
-    border-radius:150px;
-}
+
 
 .pagination-page{
     border-top-left-radius: 1.25rem;

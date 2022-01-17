@@ -1,0 +1,46 @@
+.blogger {
+    border:0.3px solid $font-color-light-gray;
+    text-align: center;
+    @media (min-width: 768px) {       
+        padding-top: 58px;
+        padding-bottom: 92px;
+        text-align: left;
+    }
+
+  &__contac {
+
+}
+&__data {
+}
+&__redonda {
+    width: 131px;
+    height: auto;
+    border:0.3px solid $font-color-light-gray;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    @media (min-width: 768px) {
+      }
+}
+}
+
+.blogger__contac__rrss{
+    color: $font-color-ruddy;
+    font-family: $ff-roboto, sans-serif;
+}
+.blogger__contac__name {
+  font-family: $ff-playfair, sans-serif;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 30px;
+  color: $font-color-eerie;
+}
+.blogger_contac__decrip{
+    font-family: $ff-roboto, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: $font-color-title-parrafo;
+  
+}
